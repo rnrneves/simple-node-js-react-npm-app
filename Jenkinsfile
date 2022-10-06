@@ -12,7 +12,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                     sh './src/npm install'
+                     sh 'npm install'
                 }     
             }
         }
